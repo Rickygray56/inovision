@@ -1,0 +1,2261 @@
+.navbar {
+    font-family: 'Raleway', sans-serif; 
+    background: none;
+    height: 120px;
+    margin-left: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#nav-collapse {
+    padding-right: 200px;
+}
+
+ul {
+    margin: auto;
+}
+
+li {
+    display: inline-block;
+    padding: 3px;
+    font-size: 22px;
+}
+
+.nav-link {
+    padding: 5px;
+    color: #f7931e;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-link:hover {
+    color: #b5451d;
+}
+
+.logo {
+    width: 110%; 
+    margin-top: 10px;
+    padding-left: 110px;
+    padding-bottom: 15px;
+}
+
+.form-control-lg {
+    font-family: 'Raleway', sans-serif;
+    height: 48px;
+    border: 1px solid #333;
+    border-radius: 30px;
+}
+
+.shrink {
+    background: white;
+    height: 100px;
+}
+
+.link-color {
+    color: #666666;
+}
+
+#button {
+    font-family: 'Raleway', sans-serif; 
+    background-color: #f7931e;
+    width: 50px;
+    height: 80px;
+    border: none;
+    border-radius: 0px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+    font-size: 16px;
+    position: fixed;
+    bottom: 100px;
+    right: 0px; 
+    z-index: 2;
+}
+
+body {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+/* Showcase */
+
+#showcase {
+    font-family: 'Raleway', sans-serif; 
+    min-height: 870px;
+    color: #f7931e;
+    text-align: center;
+}
+
+#showcase .parallax {
+    background-image: url('/assets/images/living-4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1050px;
+    z-index: -1;
+}
+
+#showcase h1 {
+    padding-top: 250px;
+    padding-bottom: 0;
+    font-size: 200%;
+    font-weight: lighter;
+}
+
+#showcase .btn {
+    background: #cc5500;
+    height: 60px;
+    width: 245px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-top: 12px;
+    border-radius: 30px;
+}
+
+#showcase .btn:hover {
+    background: none;
+    border-color: #cc5500;
+}
+
+#showcase .overlay {
+    background-color: rgba(0,0,0,0.7);
+    background-size: cover;
+    height: 1050px;
+    font-size: 50px;
+}
+
+/* Section A */
+
+#section-a {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #666666;
+}
+
+#section-a h1 {
+    font-size: 60px;
+}
+
+#section-a h5 {
+    font-size: 30px;
+}
+
+/* Info Section */
+
+#info-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 550px;
+    color: #666666;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    /* margin-bottom: 50px; */
+}
+
+#info-section h2 {
+    text-align: center;
+    color: #cc5500;
+}
+
+.info-logo {
+    width: 60%;
+    padding-left: 40%;
+    padding-bottom: 30px;
+}
+
+#icon {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+/* Section B */
+
+#section-b {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 450px;
+    color: white;
+}
+
+#section-b .content-wrap1 {
+    background-image: url('/assets/images/canary-cam.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.2s;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#section-b .content-wrap2 {
+    background-image: url('/assets/images/hue-living.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.2s;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#section-b .content-wrap3 {
+    background-image: url('/assets/images/august-lock.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.2s;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#section-b .overlay {
+    background-color: rgba(0,0,0,0.3);
+    background-size: cover;
+    height: 450px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 60px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#section-b .overlay:hover {
+    background-color: rgba(0,0,0,0.6);
+}
+
+#section-b h5 {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+#section-b .item {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+#section-b .item:hover .content-wrap1 {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#section-b .item1 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+#section-b .item1:hover .content-wrap2 {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#section-b .item2 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+#section-b .item2:hover .content-wrap3 {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* Section C */
+
+#section-c {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    height: 650px;
+    text-align: center;
+}
+
+#section-c .content-wrap1 {
+    background-image: url("/assets/images/apartment.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section-c .content-wrap2 {
+    padding-top: 200px;
+    color: #666666;
+}
+
+#section-c h5 {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+/* Section D */
+
+#section-d {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    height: 650px;
+    text-align: center;
+}
+
+#section-d .content-wrap1 {
+    padding-top: 200px;
+    color: #666666;
+}
+
+#section-d h5 {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+#section-d .content-wrap2 {
+    background-image: url("/assets/images/interior.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Section E */
+
+#section-e {
+    background: #f3f3f3;
+    height: 550px;
+    padding-top: 180px;
+    text-align: center;
+    color: #666666;
+}
+
+#section-e .btn {
+    background: #f3f3f3;
+    height: 60px;
+    width: 245px;
+    color: #cc5500;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-top: 12px;
+    border-radius: 30px;
+    border-color: #cc5500;
+}
+
+#section-e .btn:hover {
+    background: #cc5500;
+    border-color: #cc5500;
+    color: white;
+}
+
+/* Section F */
+
+#section-f {
+    height: 800px;
+    background-image: url("/assets/images/echo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#section-f .overlay {
+    background-color: rgba(0,0,0,0.6);
+    background-size: cover;
+    height: 800px;
+    padding-top: 300px;
+}
+
+#section-f h1 {
+    font-size: 75px;
+    font-weight: lighter;
+}
+
+#section-f h4 {
+    font-weight: lighter;
+}
+
+/* Section G */
+
+.support {
+    padding-top: 20px;
+    text-align: center;
+    color: #666666;
+}
+
+#section-g {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 400px;
+    text-align: center;
+    color: #666666;
+    padding-top: 80px;
+}
+
+.support h1 {
+    font-weight: lighter;
+}
+
+.brand-logo {
+    width: 250px;
+    padding-top: 50px;
+}
+
+.view {
+    color: #666666;
+}
+
+.view:hover {
+    color: #cc5500;
+}
+
+/* SERVICES PAGE */
+
+/* Showcase 2*/
+
+#showcase2 {
+    height: 1000px;
+    width: 100%;
+}
+
+#showcase2 .tech-pic {
+    background-image: url('/assets/images/tech-pic.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#showcase2 h1 {
+    font-size: 65px;
+    font-weight: lighter;
+    color: white;
+}
+
+#showcase2 .overlay {
+    background-color: rgba(0,0,0,0.4);
+    background-size: cover;
+    height: 1000px;
+    font-size: 50px;
+    padding-top: 475px;
+    padding-left: 500px;
+}
+
+/* Services A */
+
+#service-a {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    height: 100px;
+    margin-left: 101px;
+    margin-right: 111px;
+    text-align: center;
+    padding-top: 30px;
+    color: #666666;
+}
+
+/* #service-a h1 {
+    font-size: 25px;
+    font-weight: lighter;
+} */
+
+#service-a .serve-link {
+    font-size: 25px;
+    font-weight: lighter;
+    color: #666666;
+}
+
+/* Services B */
+
+#service-b {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 860px;
+}
+
+#service-b .content-wrap1 {
+    padding-left: 200px;
+    padding-top: 30px;
+}
+
+#service-b .content-wrap2 {
+    padding-top: 180px;
+    padding-left:150px;
+    padding-right: 150px;
+    text-align:justify;
+    text-justify:inter-word;
+    color: #666666;
+}
+
+#service-b .btn {
+    background: none;
+    height: 60px;
+    width: 245px;
+    color: #cc5500;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-top: 12px;
+    border-radius: 30px;
+    border-color: #cc5500;
+}
+
+#service-b .btn:hover {
+    background: #cc5500;
+    border-color: #cc5500;
+    color: white;
+}
+
+/* Services C */
+
+#service-c {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 860px;
+    background: #f2f2f2;
+}
+
+#service-c .content-wrap1 {
+    text-align: center;
+    padding-top: 180px;
+    padding-left:150px;
+    padding-right: 150px;
+    text-align:justify;
+    text-justify:inter-word;
+    color: #666666;
+}
+
+#service-c .content-wrap2 {
+    background-image: url("/assets/images/ecobee-therm.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#service-c .btn {
+    background: none;
+    height: 60px;
+    width: 245px;
+    color: #cc5500;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-top: 12px;
+    border-radius: 30px;
+    border-color: #cc5500;
+}
+
+#service-c .btn:hover {
+    background: #cc5500;
+    border-color: #cc5500;
+    color: white;
+}
+
+/* Services D */
+
+#service-d {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 860px;
+}
+
+#service-d .content-wrap1 {
+    background-image: url("/assets/images/assistants.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#service-d .content-wrap2 {
+    text-align: center;
+    padding-top: 180px;
+    padding-left:150px;
+    padding-right: 150px;
+    text-align:justify;
+    text-justify:inter-word;
+    color: #666666;
+}
+
+#service-d .btn {
+    background: none;
+    height: 60px;
+    width: 245px;
+    color: #cc5500;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-top: 12px;
+    border-radius: 30px;
+    border-color: #cc5500;
+}
+
+#service-d .btn:hover {
+    background: #cc5500;
+    border-color: #cc5500;
+    color: white;
+}
+
+/* Services E */
+
+#service-e {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 860px;
+    background: #f2f2f2;
+}
+
+#service-e .content-wrap1 {
+    text-align: center;
+    padding-top: 180px;
+    padding-left:150px;
+    padding-right: 150px;
+    text-align:justify;
+    text-justify:inter-word;
+    color: #666666;
+}
+
+#service-e .content-wrap2 {
+    background-image: url("/assets/images/ring-alarm.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#service-e .btn {
+    background: none;
+    height: 60px;
+    width: 245px;
+    color: #cc5500;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-top: 12px;
+    border-radius: 30px;
+    border-color: #cc5500;
+}
+
+#service-e .btn:hover {
+    background: #cc5500;
+    border-color: #cc5500;
+    color: white;
+}
+
+/* Services F */
+
+#service-f {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 860px;
+}
+
+#service-f .content-wrap1 {
+    background-image: url("/assets/images/hubs.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#service-f .content-wrap2 {
+    text-align: center;
+    padding-top: 180px;
+    padding-left:150px;
+    padding-right: 150px;
+    text-align:justify;
+    text-justify:inter-word;
+    color: #666666;
+}
+
+#service-f .btn {
+    background: none;
+    height: 60px;
+    width: 245px;
+    color: #cc5500;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-top: 12px;
+    border-radius: 30px;
+    border-color: #cc5500;
+}
+
+#service-f .btn:hover {
+    background: #cc5500;
+    border-color: #cc5500;
+    color: white;
+}
+
+/* Services G */
+
+#service-g {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 860px;
+    background: #f2f2f2;
+}
+
+#service-g .content-wrap1 {
+    text-align: center;
+    padding-top: 180px;
+    padding-left:150px;
+    padding-right: 150px;
+    text-align:justify;
+    text-justify:inter-word;
+    color: #666666;
+}
+
+#service-g .content-wrap2 {
+    background-image: url("/assets/images/doorbells.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#service-g .btn {
+    background: none;
+    height: 60px;
+    width: 245px;
+    color: #cc5500;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-top: 12px;
+    border-radius: 30px;
+    border-color: #cc5500;
+}
+
+#service-g .btn:hover {
+    background: #cc5500;
+    border-color: #cc5500;
+    color: white;
+}
+
+/* Services H */
+
+#service-h {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 860px;
+}
+
+#service-h .content-wrap1 {
+    background-image: url("/assets/images/cameras.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#service-h .content-wrap2 {
+    text-align: center;
+    padding-top: 180px;
+    padding-left:150px;
+    padding-right: 150px;
+    text-align:justify;
+    text-justify:inter-word;
+    color: #666666;
+}
+
+#service-h .btn {
+    background: none;
+    height: 60px;
+    width: 245px;
+    color: #cc5500;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-top: 12px;
+    border-radius: 30px;
+    border-color: #cc5500;
+}
+
+#service-h .btn:hover {
+    background: #cc5500;
+    border-color: #cc5500;
+    color: white;
+}
+
+/* ABOUT PAGE */
+
+/* Showcase 3 */
+
+#showcase3 .about-logo {
+    display:  grid;
+    grid-template-columns: 1fr;
+    background: black;
+    background-size: cover;
+    height: 870px;
+}
+
+#showcase3 .content-wrap {
+    margin: auto;
+}
+
+.alt-logo {
+    width: 800px; 
+}
+
+/* About A */
+
+#about-a {
+    text-align: center;
+    background: #f2f2f2;
+    padding-top: 100px;
+    color: #666666
+}
+
+#about-a .content-wrap {
+    height: 450px;
+    background: #f2f2f2;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align:justify;
+    text-justify:inter-word;
+    padding-top: 50px;
+    color: #666666;
+}
+
+/* About B */
+
+#about-b {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 780px;
+}
+
+.what {
+    text-align: center;
+    color: #666666;
+    padding-top: 50px;
+}
+
+#about-b .content-wrap1 {
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align:justify;
+    text-justify:inter-word;
+    padding-top: 250px;
+    color: #666666;
+}
+
+#about-b .content-wrap2 {
+    background-image: url("/assets/images/nest-products.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* About C */
+
+#about-c {
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#about-c .content-wrap1 {
+    background-image: url("/assets/images/living-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 50px;
+}
+
+#about-c .overlay {
+    background-color: rgba(0,0,0,0.7);
+    background-size: cover;
+    height: 800px;
+    padding-top: 150px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+#about-c .content-holder {
+    height: 500px;
+    background: none;
+    border: 3px solid white;
+}
+
+#about-c .text-wrapper {
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+/* Brands Page */
+
+#filler {
+    background: black;
+    height: 120px;
+}
+
+#brands {
+    height: 1200px;
+    background: white;
+    margin-top: 120px;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+
+#content-holder {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+#brands-logos {
+    width: 85%;
+}
+
+#brands .content-wrap21 {
+    grid-column: 1;
+    width: 60%;
+}
+
+#brands .content-wrap22 {
+    grid-column: 2;
+    width: 80%;
+}
+
+/* Brands A */
+
+#brands-a {
+    background-image: url('/assets/images/google.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 750px;
+}
+
+#brands-a .overlay {
+    background-color: rgba(0,0,0,0.3);
+    height: 750px;
+}
+
+/* Lights Page */
+
+#lights-a {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 120px;
+    height: 1000px;
+    background: white;
+}
+
+#lights-a .content-wrap2 {
+    color: #666666;
+    padding-top: 150px;
+    padding-right: 100px;
+    text-align:justify;
+    text-justify:inter-word;
+
+}
+
+#lights-a .btn {
+    background: none;
+    height: 60px;
+    width: 245px;
+    color: #cc5500;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-top: 12px;
+    border-radius: 30px;
+    border-color: #cc5500;
+}
+
+#lights-a .btn:hover {
+    background: #cc5500;
+    color: white;
+}
+
+#lights-brands {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 300px;
+    background: white;
+}
+
+#lights-logo {
+    width: 80%;
+    margin: auto;
+}
+
+#lights-brands .content-wrap1 {
+    grid-column: 2;
+    padding-top: 60px;
+}
+
+#lights-brands .content-wrap2 {
+    grid-column: 3;
+    width: 75%;
+}
+
+#lights-brands .content-wrap3 {
+    grid-column: 4;
+    padding-top: 100px;
+}
+
+#lights-brands .content-wrap4 {
+    grid-column: 5;
+    padding-top: 70px;
+}
+
+/* Thermostats */
+
+#thermostat-a {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 120px;
+    height: 900px;
+    background: white;
+}
+
+#therm-pic {
+    width: 100%;
+}
+
+#thermostat-a .content-wrap2 {
+    color: #666666;
+    padding-top: 80px;
+    padding-right: 100px;
+    text-align:justify;
+    text-justify:inter-word;
+
+}
+
+#thermostat-a .btn {
+    background: none;
+    height: 60px;
+    width: 245px;
+    color: #cc5500;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-top: 12px;
+    border-radius: 30px;
+    border-color: #cc5500;
+}
+
+#thermostat-a .btn:hover {
+    background: #cc5500;
+    color: white;
+}
+
+#thermostat-brands {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 300px;
+    background: white;
+}
+
+#thermostat-logo {
+    width: 80%;
+    margin: auto;
+}
+
+#thermostat-brands .content-wrap1 {
+    grid-column: 2;
+    padding-top: 60px;
+}
+
+#thermostat-brands .content-wrap2 {
+    width: 70%;
+    padding-top: 50px;
+    grid-column: 3;
+}
+
+#thermostat-brands .content-wrap3 {
+    grid-column: 4;
+    padding-top: 100px;
+}
+
+#thermostat-brands .content-wrap4 {
+    grid-column: 5;
+    padding-top: 50px;
+}
+
+/* Voice Page */
+
+#voice-a {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 120px;
+    height: 900px;
+    background: white;
+}
+
+#voice-a .content-wrap2 {
+    color: #666666;
+    padding-top: 150px;
+    padding-right: 100px;
+    text-align:justify;
+    text-justify:inter-word;
+
+}
+
+#voice-a .btn {
+    background: none;
+    height: 60px;
+    width: 245px;
+    color: #cc5500;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-top: 12px;
+    border-radius: 30px;
+    border-color: #cc5500;
+}
+
+#voice-a .btn:hover {
+    background: #cc5500;
+    color: white;
+}
+
+#voice-brands {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 300px;
+    background: white;
+}
+
+#voice-logo {
+    width: 70%;
+    margin: auto;
+}
+
+#voice-brands .content-wrap1 {
+    grid-column: 2;
+    width: 130%;
+}
+
+#voice-brands .content-wrap2 {
+    padding-top: 20px;
+    grid-column: 3;
+}
+
+#voice-brands .content-wrap3 {
+    grid-column: 4;
+    padding-top: 100px;
+}
+
+/* Home Security */
+
+#security-a {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 120px;
+    height: 900px;
+    background: white;
+}
+
+#security-a .content-wrap1 {
+    padding-left: 200px;
+}
+
+#security-a .content-wrap2 {
+    color: #666666;
+    padding-top: 150px;
+    padding-right: 100px;
+    text-align:justify;
+    text-justify:inter-word;
+
+}
+
+#security-a .btn {
+    background: none;
+    height: 60px;
+    width: 245px;
+    color: #cc5500;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-top: 12px;
+    border-radius: 30px;
+    border-color: #cc5500;
+}
+
+#security-a .btn:hover {
+    background: #cc5500;
+    color: white;
+}
+
+#security-brands {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 300px;
+    background: white;
+    padding-top: 50px;
+}
+
+#security-logo {
+    width: 80%;
+    margin: auto;
+}
+
+#security-brands .content-wrap1 {
+    grid-column: 2;
+}
+
+#security-brands .content-wrap2 {
+    grid-column: 3;
+    padding-top: 20px;
+}
+
+#security-brands .content-wrap3 {
+    grid-column: 4;
+}
+
+#security-brands .content-wrap4 {
+    grid-column: 5;
+    padding-top: 40px;
+}
+
+/* Hubs Page */
+
+#hubs-a {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 120px;
+    height: 900px;
+    background: white;
+}
+
+#hubs-a .content-wrap1 {
+    padding-left: 150px;
+}
+
+#hubs-a .content-wrap2 {
+    color: #666666;
+    padding-top: 150px;
+    padding-right: 100px;
+    text-align:justify;
+    text-justify:inter-word;
+
+}
+
+#hubs-a .btn {
+    background: none;
+    height: 60px;
+    width: 245px;
+    color: #cc5500;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-top: 12px;
+    border-radius: 30px;
+    border-color: #cc5500;
+}
+
+#hubs-a .btn:hover {
+    background: #cc5500;
+    color: white;
+}
+
+#hubs-brands {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 300px;
+    background: white;
+    padding-top: 50px;
+}
+
+#hubs-logo {
+    width: 80%;
+    margin: auto;
+}
+
+#hubs-brands .content-wrap1 {
+    grid-column: 2;
+    padding-top: 60px;
+}
+
+#hubs-brands .content-wrap2 {
+    grid-column: 3;
+    padding-top: 50px;
+}
+
+#hubs-brands .content-wrap3 {
+    grid-column: 4;
+    padding-top: 18px;
+}
+
+#hubs-brands .content-wrap4 {
+    grid-column: 5;
+    padding-top: 50px;
+}
+
+/* Video Doorbells */
+
+#doorbells-a {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 120px;
+    height: 900px;
+    background: white;
+}
+
+#doorbells-a .content-wrap2 {
+    color: #666666;
+    padding-top: 150px;
+    padding-right: 100px;
+    text-align:justify;
+    text-justify:inter-word;
+
+}
+
+#doorbells-a .btn {
+    background: none;
+    height: 60px;
+    width: 245px;
+    color: #cc5500;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-top: 12px;
+    border-radius: 30px;
+    border-color: #cc5500;
+}
+
+#doorbells-a .btn:hover {
+    background: #cc5500;
+    color: white;
+}
+
+#doorbells-brands {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 300px;
+    background: white;
+    padding-top: 50px;
+}
+
+#doorbells-logo {
+    width: 80%;
+    margin: auto;
+}
+
+#doorbells-brands .content-wrap1 {
+    grid-column: 2;
+}
+
+#doorbells-brands .content-wrap2 {
+    grid-column: 3;
+    padding-top: 20px;
+}
+
+#doorbells-brands .content-wrap3 {
+    grid-column: 4;
+    padding-top: 40px;
+}
+
+#doorbells-brands .content-wrap4 {
+    grid-column: 5;
+    width: 60%;
+}
+
+/* Security Cam Page */
+
+#cams-a {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 120px;
+    height: 1050px;
+    background: white;
+}
+
+#cams-a .content-wrap2 {
+    color: #666666;
+    padding-top: 150px;
+    padding-right: 100px;
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+#cams-a .btn {
+    background: none;
+    height: 60px;
+    width: 245px;
+    color: #cc5500;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-top: 12px;
+    border-radius: 30px;
+    border-color: #cc5500;
+}
+
+#cams-a .btn:hover {
+    background: #cc5500;
+    color: white;
+}
+
+#cams-brands {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 300px;
+    background: white;
+    padding-top: 50px;
+}
+
+#cams-logo {
+    width: 80%;
+    margin: auto;
+}
+
+#cams-brands .content-wrap1 {
+    grid-column: 2;
+    width: 60%;
+}
+
+#cams-brands .content-wrap2 {
+    grid-column: 3;
+    width: 80%;
+}
+
+#cams-brands .content-wrap3 {
+    grid-column: 4;
+    padding-top: 50px;
+}
+
+#cams-brands .content-wrap4 {
+    grid-column: 5;
+    width: 45%;
+}
+
+/* Pricing Page */
+
+#price-a {
+    background: white;
+    height: 800px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#price-a .title {
+    font-size: 80px;
+}
+
+#price-a h1 {
+    color: #f7931e;
+}
+
+#price-a h2 {
+    color: #666666;
+    margin-top: 120px;
+}
+
+#price-a h3 {
+    color: #666666;
+}
+
+#price-a #content-wrap1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: white;
+    height: 350px;
+    border: 2px solid #f7931e;
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#price-a .area3 {
+    padding-top: 30px;
+    color: #666666;
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+#hue {
+    width: 60%;
+}
+
+#price-b {
+    background: #f2f2f2;
+    height: 550px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#price-b h1 {
+    color: #f7931e;
+}
+
+#price-b h2 {
+    color: #666666;
+}
+
+#price-b h3 {
+    color: #666666;
+}
+
+#price-b #content-wrap1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 350px;
+    border: 2px solid #f7931e;
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#price-b .area2 {
+    padding-top: 140px;
+}
+
+#price-b .area3 {
+    padding-top: 30px;
+    color: #666666;
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+#thermostats {
+    width: 90%;
+    margin-top: 45px;
+}
+
+#price-c {
+    background: white;
+    height: 550px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#price-c h1 {
+    color: #f7931e;
+}
+
+#price-c h2 {
+    color: #666666;
+}
+
+#price-c h3 {
+    color: #666666;
+}
+
+#price-c #content-wrap1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: white;
+    height: 350px;
+    border: 2px solid #f7931e;
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#price-c .area2 {
+    padding-top: 140px;
+}
+
+#price-c .area3 {
+    padding-top: 30px;
+    color: #666666;
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+#echo {
+    width: 70%;
+    margin-top: 45px;
+}
+
+#price-d {
+    background: #f2f2f2;
+    height: 550px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#price-d h1 {
+    color: #f7931e;
+}
+
+#price-d h2 {
+    color: #666666;
+}
+
+#price-d h3 {
+    color: #666666;
+}
+
+#price-d #content-wrap1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 350px;
+    border: 2px solid #f7931e;
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#price-d .area2 {
+    padding-top: 140px;
+}
+
+#price-d .area3 {
+    padding-top: 30px;
+    color: #666666;
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+#safe {
+    width: 70%;
+    margin-top: 45px;
+}
+
+#price-e {
+    background: white;
+    height: 550px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#price-e h1 {
+    color: #f7931e;
+}
+
+#price-e h2 {
+    color: #666666;
+}
+
+#price-e h3 {
+    color: #666666;
+}
+
+#price-e #content-wrap1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: white;
+    height: 350px;
+    border: 2px solid #f7931e;
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#price-e .area2 {
+    padding-top: 140px;
+}
+
+#price-e .area3 {
+    padding-top: 30px;
+    color: #666666;
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+#hub {
+    width: 60%;
+    margin-top: 0px;
+}
+
+#price-f {
+    background: #f2f2f2;
+    height: 550px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#price-f h1 {
+    color: #f7931e;
+}
+
+#price-f h2 {
+    color: #666666;
+}
+
+#price-f h3 {
+    color: #666666;
+}
+
+#price-f #content-wrap1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 350px;
+    border: 2px solid #f7931e;
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#price-f .area2 {
+    padding-top: 140px;
+}
+
+#price-f .area3 {
+    padding-top: 30px;
+    color: #666666;
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+#doorbell {
+    width: 41%;
+    margin-top: 15px;
+}
+
+#price-g {
+    background: white;
+    height: 550px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#price-g h1 {
+    color: #f7931e;
+}
+
+#price-g h2 {
+    color: #666666;
+}
+
+#price-g h3 {
+    color: #666666;
+}
+
+#price-g #content-wrap1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: white;
+    height: 350px;
+    border: 2px solid #f7931e;
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#price-g .area2 {
+    padding-top: 140px;
+}
+
+#price-g .area3 {
+    padding-top: 30px;
+    color: #666666;
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+#cam {
+    width: 60%;
+}
+
+/* FOOTER */
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    background: #2b2b2b;
+    height: 500px;
+    padding-top: 100px;
+    text-align: center;
+    color: #f7f8f9;
+}
+
+.foot-logo {
+    margin-left: 10px;
+    width: 190px; 
+}
+
+footer p {
+    padding: 3px;
+}
+
+footer p:hover {
+    color: #f7931e;
+}
+
+footer .content-wrap1 {
+    grid-column: 3;
+}
+
+/* MEDIA QUERIES */
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 1924px) {
+    #showcase .parallax {
+        height: 850px;
+    }
+
+    #showcase .overlay {
+        height: 850px;
+    }
+
+    #section-a {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    #info-section {
+        height: 420px;
+        padding-bottom: 100px;
+    }
+    
+    #icon {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    #section-b {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        height: 380px;
+        color: white;
+    }
+
+    #brands {
+        height: 780px;
+        padding-left: 450px;
+        padding-right: 450px;
+    }
+
+    #brands-a {
+        height: 520px;
+    }
+    
+    #brands-a .overlay {
+        height: 520px;
+    }
+
+    /* Service Page */
+
+    #showcase2 {
+        height: 800px;
+    }
+    
+    #showcase2 .tech-pic {
+        width: 100%;
+        height: 800px;
+    }
+
+    #service-b .content-wrap1 {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    #google-lights {
+        width: 850px;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+
+    /* LIGHTS */
+
+    #lights-a {
+        margin-top: 0px;
+        height: 920px;
+    }
+
+    #lights-a .content-wrap1 {
+        width: 100px;
+    }
+
+    #lights-pic {
+        height: 700px;
+        margin-top: 100px;
+    }
+    
+    #lights-a .content-wrap2 {
+        padding-left: 10px;
+        padding-top: 100px;
+    }
+    
+    #lights-brands {
+        height: 250px;
+    }
+    
+    #lights-logo {
+        width: 80%;
+        margin: auto;
+    }
+    
+    #lights-brands .content-wrap1 {
+        grid-column: 2;
+        padding-top: 60px;
+    }
+    
+    #lights-brands .content-wrap2 {
+        grid-column: 3;
+        width: 75%;
+        padding-top: 45px;
+        padding-left: 50px;
+    }
+    
+    #lights-brands .content-wrap3 {
+        grid-column: 4;
+        padding-top: 100px;
+    }
+    
+    #lights-brands .content-wrap4 {
+        grid-column: 5;
+        padding-top: 70px;
+    }
+
+    /* THERMOSTATS */
+
+    #thermostat-a {
+        margin-top: 0px;
+        height: 910px;
+    }
+
+    #therm-pic {
+        width: 110%;
+        margin-top: 130px;
+        margin-left: -35px;
+    }
+    
+    #thermostat-brands {
+        height: 250px;
+    }
+    
+    #thermostat-brands .content-wrap1 {
+        grid-column: 2;
+        padding-top: 80px;
+    }
+    
+    #thermostat-brands .content-wrap2 {
+        width: 70%;
+        padding-top: 75px;
+        grid-column: 3;
+    }
+    
+    #thermostat-brands .content-wrap3 {
+        grid-column: 4;
+        padding-top: 110px;
+    }
+    
+    #thermostat-brands .content-wrap4 {
+        grid-column: 5;
+        padding-top: 50px;
+    }
+
+    /* Voice Page */
+
+    #voice-a {
+        margin-top: 0px;
+        height: 1000px;
+    }
+
+    #voice-pic {
+        height: 700px;
+        margin-top: 130px;
+    }
+
+    #voice-a .content-wrap2 {
+        padding-top: 100px;
+    }
+
+    #voice-brands {
+        height: 250px;
+    }
+
+    #voice-brands .content-wrap1 {
+        grid-column: 3;
+        width: 130%;
+    }
+
+    #voice-brands .content-wrap2 {
+        padding-top: 20px;
+        grid-column: 4;
+    }
+
+    #voice-brands .content-wrap3 {
+        grid-column: 5;
+        padding-top: 80px;
+    }
+
+    /* HOME SECURITY */
+
+    #security-a {
+        margin-top: 0px;
+        height: 1000px;
+    }
+    
+    #security-pic {
+        height: 700px;
+        margin-top: 120px;
+    }
+    
+    #security-a .content-wrap2 {
+        padding-top: 100px;
+        padding-right: 100px;
+    }
+    
+    #security-brands {
+        height: 250px;
+    }
+    
+    #security-brands .content-wrap1 {
+        grid-column: 2;
+    }
+    
+    #security-brands .content-wrap2 {
+        grid-column: 3;
+        padding-top: 15px;
+    }
+    
+    #security-brands .content-wrap3 {
+        grid-column: 4;
+    }
+    
+    #security-brands .content-wrap4 {
+        grid-column: 5;
+        padding-top: 30px;
+    }
+
+    /* Smart Hubs */
+
+    #hubs-a {
+        margin-top: 0px;
+        height: 1150px;
+    }
+    
+    #hubs-a .content-wrap1 {
+        padding-left: 0px;
+    }
+
+    #hub-pic {
+        height: 700px;
+        margin-top: 100px;
+    }
+    
+    #hubs-a .content-wrap2 {
+        color: #666666;
+        padding-top: 100px;
+    
+    }
+    
+    #hubs-brands {
+        height: 250px;
+    }
+    
+    #hubs-brands .content-wrap1 {
+        grid-column: 2;
+        padding-top: 60px;
+    }
+    
+    #hubs-brands .content-wrap2 {
+        grid-column: 3;
+        padding-top: 60px;
+    }
+    
+    #hubs-brands .content-wrap3 {
+        grid-column: 4;
+        padding-top: 30px;
+    }
+    
+    #hubs-brands .content-wrap4 {
+        grid-column: 5;
+        padding-top: 50px;
+    }
+
+    /* Doorbells */
+
+    #doorbells-a {
+        margin-top: 0px;
+        height: 1000px;
+    }
+
+    #doorbell-pic {
+        height: 620px;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    
+    #doorbells-a .content-wrap2 {
+        padding-top: 100px;
+    }
+    
+    #doorbells-brands {
+        height: 250px;
+    }
+    
+    #doorbells-brands .content-wrap1 {
+        grid-column: 2;
+    }
+    
+    #doorbells-brands .content-wrap2 {
+        grid-column: 3;
+        padding-top: 15px;
+    }
+    
+    #doorbells-brands .content-wrap3 {
+        grid-column: 4;
+        padding-top: 35px;
+    }
+    
+    #doorbells-brands .content-wrap4 {
+        grid-column: 5;
+        width: 60%;
+    }
+
+    /* CAMERAS */
+
+    #cams-a {
+        margin-top: 0px;
+        height: 1110px;
+    }
+
+    #cam-pic {
+        height: 700px;
+        margin-top: 50px;
+    }
+    
+    #cams-a .content-wrap2 {
+        padding-top: 100px;
+    }
+    
+    #cams-brands {
+        height: 250px;
+    }
+    
+    #cams-brands .content-wrap1 {
+        grid-column: 2;
+        width: 70%;
+        padding-left: 40px;
+    }
+    
+    #cams-brands .content-wrap2 {
+        grid-column: 3;
+        width: 80%;
+    }
+    
+    #cams-brands .content-wrap3 {
+        grid-column: 4;
+        padding-top: 35px;
+    }
+    
+    #cams-brands .content-wrap4 {
+        grid-column: 5;
+        width: 45%;
+    }
+
+    /* Price Page */
+    
+    #price-a #content-wrap1 {
+        margin-top: 40px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    
+    #price-a .area3 {
+        padding-top: 30px;
+        padding-right: 15px;
+    }
+    
+    #hue {
+        width: 70%;
+        margin-top: 30px;
+    }
+
+    #price-b #content-wrap1 {
+        margin-top: 40px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    
+    #price-b .area3 {
+        padding-top: 30px;
+        padding-right: 15px;
+    }
+    
+    #thermostats {
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    #price-c #content-wrap1 {
+        margin-top: 40px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    
+    #price-c .area3 {
+        padding-top: 30px;
+        padding-right: 15px;
+    }
+    
+    #echo {
+        width: 70%;
+        margin-top: 75px;
+    }
+
+    #price-d #content-wrap1 {
+        margin-top: 40px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    
+    #price-d .area3 {
+        padding-top: 30px;
+        padding-right: 15px;
+    }
+    
+    #safe {
+        width: 90%;
+        margin-top: 60px;
+    }
+
+    #price-e #content-wrap1 {
+        margin-top: 40px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    
+    #price-e .area3 {
+        padding-top: 30px;
+        padding-right: 15px;
+    }
+    
+    #hub {
+        width: 80%;
+        margin-top: 15px;
+    }
+
+    #price-f #content-wrap1 {
+        margin-top: 40px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    
+    #price-f .area3 {
+        padding-top: 30px;
+        padding-right: 15px;
+    }
+    
+    #doorbell {
+        width: 55%;
+        margin-top: 30px;
+    }
+
+    #price-g #content-wrap1 {
+        margin-top: 40px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    
+    #price-g .area3 {
+        padding-top: 30px;
+        padding-right: 15px;
+    }
+    
+    #cam {
+        width: 70%;
+        margin-top: 30px;
+    }
+}
